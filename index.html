@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ExplorePH – Your Travel Buddy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="logo">ExplorePH</div>
+    <div class="menu-toggle" id="menuToggle">☰</div>
+    <nav class="nav" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Discover the Beauty of the Philippines</h1>
+        <h2>Your easy travel guide para walang ma-miss na spots</h2>
+        <p>
+          Gusto mo mag-travel pero di mo alam saan magsisimula?
+          ExplorePH helps students and travelers find nearby destinations,
+          food to try and places to stay, budget friendly at easy lang gamitin!
+        </p>
+        <button type="button" class="btn-primary">Start Exploring</button>
+        <button type="button" class="btn-secondary">Learn More</button>
+      </div>
+      <img src="philippines.jpg" class="hero-image" alt="Philippines">
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="features">
+      <h2>Why Use ExplorePH?</h2>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <img src="map.jpg" alt="Map icon">
+          <h3>Nearby Destinations</h3>
+          <p>
+            Grouped by Luzon, Visayas, and Mindanao so mas madali mag plan
+            ng travel kahit short trip lang.
+          </p>
+        </article>
+        <article class="feature-card">
+          <img src="food.jpg" alt="Food icon">
+          <h3>Food Guide</h3>
+          <p>
+            Know what food to try sa bawat lugar, street food,
+            local delicacies, and a must eat spots.
+          </p>
+        </article>
+        <article class="feature-card">
+          <img src="hotel.jpg" alt="Hotel icon">
+          <h3>Where to Stay</h3>
+          <p>
+            From budget inns to resorts, may recommendations
+            depende sa budget at travel style mo.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- DESTINATIONS -->
+    <section id="destinations" class="destinations">
+  <h2>Top Travel Destinations</h2>
+
+  <div class="destination-grid">
+    <article class="destination">
+      <h3>Luzon</h3>
+      <ul>
+        <li><strong>Baguio:</strong> Burnham Park, Session Road</li>
+        <li><strong>Tagaytay:</strong> Taal Lake, Sky Ranch</li>
+        <li><strong>Hidden Gem:</strong> Mt. Manabu (Batangas)</li>
+      </ul>
+      <p><strong>Food:</strong> Strawberry taho, bulalo</p>
+      <p><strong>Tip:</strong> Best time is December–February</p>
+    </article>
+
+    <article class="destination">
+      <h3>Visayas</h3>
+      <ul>
+        <li><strong>Cebu:</strong> Kawasan Falls, Moalboal</li>
+        <li><strong>Bohol:</strong> Chocolate Hills, Panglao</li>
+        <li><strong>Hidden Gem:</strong> Cambugahay Falls</li>
+      </ul>
+      <p><strong>Food:</strong> Lechon Cebu, peanut kisses</p>
+      <p><strong>Tip:</strong> Ferries are cheaper than flights</p>
+    </article>
+
+    <article class="destination">
+      <h3>Mindanao</h3>
+      <ul>
+        <li><strong>Davao:</strong> Mt. Apo, Eden Nature Park</li>
+        <li><strong>Siargao:</strong> Cloud 9, Magpupungko Pools</li>
+        <li><strong>Hidden Gem:</strong> Tinuy-an Falls</li>
+      </ul>
+      <p><strong>Food:</strong> Grilled tuna, durian candy</p>
+      <p><strong>Tip:</strong> Surfing season is Sept–Nov</p>
+    </article>
+  </div>
+</section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <h2>About ExplorePH</h2>
+      <p>
+        ExplorePH is a fictional travel guide service made by students
+        for students and travelers who want to explore the Philippines
+        without stress.
+      </p>
+      <p>
+        Everything is already organized—destinations, food, stays,
+        and tips—so less planning, more enjoy.
+      </p>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="pricing">
+      <h2>Pricing Plans</h2>
+      <p class="pricing-intro">
+        Simple plans na swak sa budget 👌
+      </p>
+
+      <div class="pricing-cards">
+        <article class="pricing-card">
+          <h3>Solo Explorer</h3>
+          <h4>₱99</h4>
+          <p class="plan-desc">For students & solo travelers</p>
+          <ul>
+            <li>Basic travel guides</li>
+            <li>Tourist spots</li>
+            <li>Food recommendations</li>
+          </ul>
+          <button type="button" class="btn-primary">Get Started</button>
+        </article>
+
+        <article class="pricing-card highlight">
+          <h3>Barkada Trip</h3>
+          <h4>₱199</h4>
+          <p class="plan-desc">Most popular for groups</p>
+          <ul>
+            <li>All Solo features</li>
+            <li>Budget stays</li>
+            <li>Sample itineraries</li>
+          </ul>
+          <button type="button" class="btn-secondary">Most Popular</button>
+        </article>
+
+        <article class="pricing-card">
+          <h3>Family Adventure</h3>
+          <h4>₱399</h4>
+          <p class="plan-desc">Perfect for family travel</p>
+          <ul>
+            <li>All Barkada features</li>
+            <li>Family-friendly hotels</li>
+            <li>Safety travel tips</li>
+          </ul>
+          <button type="button" class="btn-primary">Choose Plan</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+      <h4>Contact Us</h4>
+      <p>Email: exploreph@email.com</p>
+      <p>Phone: 0994 692 8932</p>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/leslie.aguilar.5688">Facebook</a>
+        <a href="https://www.instagram.com/glimmerly18?igsh=MTFsM3d2dzluMmJnNg==">Instagram</a>
+      </div>
+
+      <p class="copyright">
+        © 2026 ExplorePH. All rights reserved.
+      </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html> 
